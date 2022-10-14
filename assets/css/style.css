@@ -226,7 +226,7 @@ hr {
 }
 
 
-/* Footer and Social Media Icons */
+/*** Footer and Social Media Icons ***/
 
 footer {
     height: 150px;
@@ -248,7 +248,7 @@ footer {
 }
 
 
-/* Gallery and Photos */
+/*** Gallery and Photos ***/
 
 #photos {
     clear: both;
@@ -262,7 +262,7 @@ footer {
 }
 
 
-/* Media Queries // Responsive Design*/
+/*** Media Queries & Responsive Design For Smaller Desktop Sizes ***/
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -293,4 +293,17 @@ footer {
         display: none;
     }
 
+}
+
+
+/*** Media Queries & Responsive Design For Smartphone/Tablets ***/
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
