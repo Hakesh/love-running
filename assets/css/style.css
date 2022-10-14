@@ -359,6 +359,16 @@ footer {
     }
 
     .social-networks i {
-        margin-top: 10%;
+        margin: 10% 4% 4% 4%;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
