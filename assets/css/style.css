@@ -9,7 +9,9 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    /* color: #3a3a3a; */
+    color: #EDEDED;
+    background: #191919;
 }
 
 /*** Headings and Logo ***/
@@ -18,7 +20,8 @@ h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    /* color: #252525 */
+    color: #EDEDED;
 }
 
 #logo {
@@ -52,11 +55,13 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    /* border-bottom: 1px solid #3a3a3a; */
+    border-bottom: 1px solid #EDEDED;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    /* border-bottom: 1px solid #3a3a3a; */
+    border-bottom: 1px solid #EDEDED;
 }
 
 
@@ -244,7 +249,8 @@ footer {
     font-size: 160%;
     margin: 3% 1% 1% 1%;
     padding: 5;
-    color: #3a3a3a;
+    /* color: #3a3a3a; */
+    color: #EDEDED;
 }
 
 
@@ -255,6 +261,7 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    padding-top: 7%;
 }
 
 #photos > img {
@@ -286,6 +293,13 @@ footer {
         clear: both;
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
@@ -342,5 +356,9 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 2px 20px 0 20px;
+    }
+
+    .social-networks i {
+        margin-top: 10%;
     }
 }
